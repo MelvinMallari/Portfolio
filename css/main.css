@@ -464,6 +464,20 @@ ul li {
 .row-wrapper {
   display: flex;
 }
+.portfolio-item-about-container {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-item-about-header {
+	font-size: 33px;
+	line-height: 33px;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+.portfolio-item-about {
+  margin-top: 80px;
+  max-width: 500px;
+}
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
