@@ -84,6 +84,9 @@ ul, ol {
 ul li {
 	list-style: none;
 }
+img {
+  object-fit: cover;
+}
 .section {
 	padding: 100px 0;
 }
@@ -103,8 +106,13 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Header & navigation
 -------------------------------------------------------------------------------*/
+#banner {
+  /* object-fit: cover; */
+  /* height: 100%; */
+  width: 100%
+}
 #header {
-	position: fixed;
+	/* position: fixed; */
 	width: 94%;
 	z-index: 999;
 	margin-left: 3%;
@@ -297,6 +305,7 @@ ul li {
 	-webkit-transform: translateY(0) rotate(-45deg);
 	transform: translateY(0) rotate(-45deg);
 }
+
 /* ------------------------------------------------------------------------------
 	 Header Slider
 -------------------------------------------------------------------------------*/
@@ -391,8 +400,8 @@ ul li {
 .about-content li a:hover {
 	color: #000;
 }
-.about-container {
-  max-width: 780px;
+.about-info {
+  max-width: 700px;
 }
 #about-info-summary {
   margin-top: 40px;  
@@ -400,6 +409,20 @@ ul li {
 }
 .fa-icon {
   padding-right: 14px;
+}
+.about-img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 4px;
+}
+.about-container {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-photo {
+  display: flex;
+  align-items: center;
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
