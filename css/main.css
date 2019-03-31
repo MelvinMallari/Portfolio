@@ -63,7 +63,7 @@ h5 {
 	 General Style
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #adcae6;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -75,7 +75,7 @@ a:hover, a:focus {
 body {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	color: #6c7279;
+	color: #72a4d4;
 }
 ul, ol {
 	margin: 0;
@@ -413,7 +413,7 @@ img {
 .about-img {
   max-width: 300px;
   max-height: 300px;
-  border-radius: 4px;
+  /* border-radius: 4x; */
 }
 .about-container {
   width: 1100px;
