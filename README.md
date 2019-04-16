@@ -1,2 +1,0 @@
-# CookieMon
-TEST
