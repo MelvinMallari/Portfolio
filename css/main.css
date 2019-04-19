@@ -413,6 +413,7 @@ img {
 .about-img {
   max-width: 300px;
   max-height: 300px;
+  margin-right: 25px;
   /* border-radius: 4x; */
 }
 .about-container {
@@ -612,5 +613,9 @@ img {
 }
 .contact-label {
   letter-spacing: 2px;
+}
 
+.contact-icons {
+  margin-top: 5px;
+  margin-left: 5px;
 }
